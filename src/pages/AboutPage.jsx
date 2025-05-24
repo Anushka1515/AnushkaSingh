@@ -1,5 +1,5 @@
-import Parallax from "../components/parallax/Parallax";
-import Services from "../components/services/services";
+import Parallax from "../components/parallax/Parallax.jsx";
+import Services from "../components/services/services.jsx";
 
 function AboutPage() {
   return (
