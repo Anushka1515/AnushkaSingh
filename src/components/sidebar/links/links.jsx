@@ -87,7 +87,7 @@ const Links = ({ open }) => {
     >
       {items.map((item) => (
         <motion.a
-          href={`./${item}`}
+          href={`./${item.toLowerCase()}`}
           key={item}
           variants={itemVariants}
           whileHover={{ scale: 1.1 }}
